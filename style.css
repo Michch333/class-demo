@@ -1,4 +1,60 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
 .image-container {
     display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
     border: 1px solid black;
+    height: 100%;
+    width: 50%;
 }
+
+.imageone {
+    background-image: url(./Chloe1.PNG);
+    background-size: contain;
+    display: block;
+    height: 300px;
+    width: 300px;
+
+}
+
+.imagetwo {
+    background-image: url(./Chloe2.PNG);
+    height: 300px;
+    width: 300px;
+
+}
+
+.imagethree {
+    background-image: url(./Chloe3.PNG);
+    height: 300px;
+    width: 300px;
+
+}
+
+.imagefour{
+    background-image: url(./Meeko1.PNG);
+    height: 300px;
+    width: 300px;
+
+}
+
+.imagefive {
+    background-image: url(./Meeko2.PNG);
+    height: 300px;
+    width: 300px;
+
+}
+
+.imagesix {
+    background-image: url(./meeko3.PNG);
+    height: 300px;
+    width: 300px;
+
+}
+
