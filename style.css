@@ -1,0 +1,79 @@
+.main-container {
+    display: flex;
+}
+
+.image-container {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    height: 100%;
+    width: 50%;
+    margin: 0;
+}
+.image {
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.imageone {
+    background-image: url(./Chloe1.PNG);
+}
+
+.imagetwo {
+    background-image: url(./Chloe2.PNG);
+}
+
+.imagethree {
+    background-image: url(./Chloe3.PNG);
+}
+
+.imagefour{
+    background-image: url(./Meeko1.PNG);
+}
+
+.imagefive {
+    background-image: url(./Meeko2.PNG);
+}
+
+.imagesix {
+    background-image: url(./meeko3.PNG);
+}
+
+.upload-container{
+    width: 50%;
+    
+}
+
+.upload-form {
+  height: 100%;
+  width: 95%;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+
+.upload-form > * {
+    margin: auto;
+}
+
+.text {
+    border: 2px solid gray;
+    height: 10%;
+    width: 90%;
+}
+
+.radio {
+    align-self: flex-start;
+}
+.submit {
+    height: 10%;
+    width: 30%;
+}
