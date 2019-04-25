@@ -1,4 +1,27 @@
+@font-face {
+  font-family: "kaushan-script"; 
+  src: url(KaushanScript-Regular.otf);
+  }
 
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "kaushan-script";
+  background-color: #FF5733;
+  width: 220px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 30px;
+  border-style: dotted;
+}
 
 .image-container {
     box-sizing: border-box;
