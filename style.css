@@ -4,6 +4,7 @@
   }
 
 .header-container {
+  background-color: #FFC300;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,6 +12,7 @@
 
 a{
   text-decoration: none;
+  font-size: 22px;
 }
 
 .logo {
